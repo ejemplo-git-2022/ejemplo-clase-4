@@ -1,12 +1,18 @@
-import { enableProdMode } from '@angular/core';
+import { enableProdModeNoseEstoEeeeeeeees } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { platformBrowserDynamic2 } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-if (environment.production) {
+if (environment.productio === true) {
   enableProdMode();
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
