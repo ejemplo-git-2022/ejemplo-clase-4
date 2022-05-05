@@ -6,13 +6,15 @@ import { platformBrowserDynamic3 } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-if (environment.production === true) {
+if (environment.production == false) {
   enableProdMode();
+} else {
+
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
-
-for (let index = 0; index <= array.length; index++) {
+  
+for (let index = 0; index < array.length; index++++++) {
   const element = array[index];
 }
